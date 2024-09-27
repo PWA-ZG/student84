@@ -1,0 +1,44 @@
+{
+  "name": "Create your own video and download it!",
+  "short_name": "PWA-project",
+  "id": "/index.html",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "red",
+  "theme_color": "green",
+  "scope": ".",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/Bon-Jovi-Brasao-logo-vector.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/Guns-N-Roses-logo.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/images/black-sabbath-logo-vector-01.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/aerosmith-logo-vector.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/ac-dc-logo-vector-01.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/images/Nirvana-logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}

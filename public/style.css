@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.header {
+  background-color: #4285f4;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.sync {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+video {
+  height: 240px;
+  width: 360px;
+  margin-top: 20px;
+}
+
+button {
+margin-top: 10px;
+padding: 10px;
+font-size: 16px;
+cursor: pointer;
+background-color: #4caf50; 
+color: white;
+border: none;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #45a049; 
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 500px;
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+  display: flex; /* Postavljanje na fleksibilni kontejner */
+  flex-direction: column; /* Stavljanje elemenata jedan ispod drugog */
+  align-items: center; /* Centriranje po horizontalnoj osi */
+  justify-content: center; /* Centriranje po vertikalnoj osi */
+}
+
+form {
+  background: white;
+  padding: 3em;
+  height: 320px;
+  border-radius: 20px;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
